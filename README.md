@@ -24,15 +24,3 @@ O design utiliza **cores neutras e tipografia legível**, pensado na **acessibil
 - Layout responsivo e acessível
 
 ---
-
-## Tecnologias Utilizadas
-
-- HTML5
-- CSS3
-- JavaScript (ES6)
-- Google Maps Embed
-- Imagens de Unsplash
-
----
-
-## Estrutura do Projeto
