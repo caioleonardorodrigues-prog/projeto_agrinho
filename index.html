@@ -1,1 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dificuldades do Campo Entre a Cidade</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Dificuldades do Campo Entre a Cidade</h1>
+        <nav>
+            <ul>
+                <li><a href="#info">Informações</a></li>
+                <li><a href="#problemas">Problemas</a></li>
+                <li><a href="#solucoes">Soluções</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
 
+    <main>
+        <section id="info">
+            <h2>Informações sobre o Campo</h2>
+            <p>O campo é o local onde predominam atividades agrícolas e pecuárias, com áreas verdes amplas e pequenas comunidades rurais. Aqui, é possível plantar alimentos, criar animais e desfrutar de um contato mais próximo com a natureza.</p>
+
+            <h3>Meios de Plantações</h3>
+            <ul>
+                <li>Plantio manual: tradicional e eficiente para pequenas áreas.</li>
+                <li>Tratores e máquinas agrícolas: para grandes plantações.</li>
+                <li>Sistemas de irrigação: ajudam a manter a produção mesmo em períodos secos.</li>
+            </ul>
+
+            <h3>Galeria do Campo</h3>
+            <div class="slider">
+                <div class="slides">
+                    <img src="https://images.unsplash.com/photo-1501004318641-b39e6451bec6" alt="Campo verde">
+                    <img src="https://images.unsplash.com/photo-1592928307060-2c8c3a1f51d0" alt="Trator no campo">
+                    <img src="https://images.unsplash.com/photo-1599058917211-cf2c8186d1a8" alt="Plantação de trigo">
+                </div>
+                <button class="prev">&#10094;</button>
+                <button class="next">&#10095;</button>
+            </div>
+        </section>
+
+        <section id="problemas">
+            <h2>Problemas Enfrentados no Campo</h2>
+            <ul class="highlight-list">
+                <li>Dificuldade de acesso a escolas e hospitais.</li>
+                <li>Falta de estradas pavimentadas e transporte público.</li>
+                <li>Baixa conectividade de internet e tecnologia.</li>
+                <li>Dependência do clima para produção agrícola.</li>
+                <li>Dificuldades financeiras devido à venda limitada de produtos.</li>
+            </ul>
+        </section>
+
+        <section id="solucoes">
+            <h2>Soluções Possíveis</h2>
+            <ul class="highlight-list">
+                <li>Investimento em infraestrutura: estradas, transporte e energia elétrica.</li>
+                <li>Programas de educação e saúde móvel.</li>
+                <li>Uso de tecnologia agrícola para melhorar produtividade.</li>
+                <li>Criação de cooperativas para venda e distribuição de produtos.</li>
+                <li>Capacitação em técnicas de cultivo sustentável.</li>
+            </ul>
+        </section>
+
+        <section id="contato">
+            <h2>Contato</h2>
+            <p>Email: <a href="mailto:contato@campo.com">contato@campo.com</a></p>
+            <p>Telefone: (11) 91234-5678</p>
+            <p>Endereço: Estrada do Campo, 123, Zona Rural, Cidade</p>
+
+            <h3>Envie sua mensagem</h3>
+            <form id="contactForm">
+                <input type="text" id="nome" placeholder="Seu nome" required>
+                <input type="email" id="email" placeholder="Seu email" required>
+                <textarea id="mensagem" placeholder="Sua mensagem" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+            <p id="formMessage"></p>
+
+            <h3>Localização do Campo</h3>
+            <div id="map">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.125474199066!2d-46.63330928451512!3d-23.5505196846828!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59c92a8a7657%3A0x45f05c0e1a92dca0!2sSão%20Paulo%2C%20SP%2C%20Brasil!5e0!3m2!1spt-BR!2sus!4v1686512345678!5m2!1spt-BR!2sus"
+                    width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 Dificuldades do Campo Entre a Cidade. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
